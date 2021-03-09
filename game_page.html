@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+<script src="gamepage.js"></script>
+</head>
+<body>
+
+<div class="container">
+	<center>
+		<h2 style="color: white;">Guess The Number</h2>
+
+		<h3 id="playerquestion"></h3>
+		<h3 id="playeranswer"></h3>
+
+
+		<br>
+		<br>
+
+		<div id="output" class="col-lg-6"></div>
+
+		<label>Send Your Number: <b style="color: red">Try putting a long number</b></label>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<input type="text" id="notobesent" placeholder=" the no">
+		<input type="text" id="notobesent2" placeholder=" the 2 no">
+
+
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<button id="sendnumber" onclick="sendnum()" class="btn btn-success">Send number</button>
+
+		<h4 id="player1score"></h4>
+		<h4 id="player2score"></h4>
+
+	</center>
+</div>
+</body>
+</html>
